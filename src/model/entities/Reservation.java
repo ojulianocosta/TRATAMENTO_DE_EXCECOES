@@ -1,6 +1,6 @@
 package model.entities;
 
-import java.sql.Date;
+import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.concurrent.TimeUnit;
 
@@ -48,7 +48,7 @@ public class Reservation {
                 + roomNumber
                 + ", check-in: "
                 + formattedDate.format(checkIn)
-                + ", check-out"
+                + ", check-out:  "
                 + formattedDate.format(checkOut)
                 + ", "
                 + duration()
